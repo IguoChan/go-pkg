@@ -4,9 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"go.uber.org/zap/zapcore"
-
 	"go.uber.org/zap"
+	"go.uber.org/zap/zapcore"
 )
 
 func TestDefauletLogger(t *testing.T) {
